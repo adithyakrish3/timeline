@@ -5,6 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import DoneIcon from '@material-ui/icons/Done';
 import RefreshIcon from '@material-ui/icons/Refresh';
 import TextField from '@material-ui/core/TextField';
+import Grid from '@material-ui/core/Grid';
 
 const useStyles = makeStyles(theme => ({
   linkContainer: {
@@ -50,6 +51,8 @@ const useStyles = makeStyles(theme => ({
     }
   },
   root: {
+    display: 'flex',
+    flexDirection: 'column',
   	padding: theme.spacing(5)
   },
   topMargin: {
